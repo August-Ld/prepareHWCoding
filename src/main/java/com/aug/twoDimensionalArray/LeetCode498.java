@@ -14,6 +14,7 @@ public class LeetCode498 {
                 for (int x = Math.max(0, i - m + 1); x <= Math.min(i, n - 1); x ++ )//从上往下遍历
                     res[idx++] = mat[x][i - x];
         }
+
         return res;
     }
 }
